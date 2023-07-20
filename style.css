@@ -1,4 +1,36 @@
 body {
-  background-color: #05ebdf;
+  background-color: rgb(23, 27, 33);
   color: #fff;
+}
+header {
+  width: 100%;
+  background-color: rgb(1, 4, 9);
+  text-align: center;
+  height: 35px;
+  height: fit-content;
+}
+h1 {
+  font-size: 28px;
+}
+h6 {
+  font-size: 15px;
+}
+a {
+  cursor: pointer;
+  color: rgb(83, 64, 101);
+}
+.banner {
+  padding-top: 10px;
+  background-color: rgb(1, 4, 9);
+}
+.banner_pic {
+  height: 65vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.selfpic {
+  position: relative;
+  z-index: 3;
+  float: top;
 }
